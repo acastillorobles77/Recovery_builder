@@ -5,13 +5,13 @@ on:
 
 env:
   # (required) twrp manifest 
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git
   # (required) manifest branch 
-  BRANCH: twrp-11
+  BRANCH: twrp-9.0
   # (required) device codename i.e: sweet mojito.. 
   DEVICE: Insignia_Delta3
   # (required) device tree link with branch if exists
-  DT_LINK: https://github.com/acastillorobles77/android_device_timovi_Insignia_Delta3-twrp
+  DT_LINK: https://github.com/acastillorobles77/android_device_timovi_Insignia_Delta3-twrp.git
   # (required) who made your phone ? 
   MANUFACTURER: timovi
   # (required) recovery partiton = recovery, else (no recovery partition): boot 
