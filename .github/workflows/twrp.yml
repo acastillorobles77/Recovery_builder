@@ -9,18 +9,18 @@ env:
   # (required) manifest branch 
   BRANCH: twrp-11
   # (required) device codename i.e: sweet mojito.. 
-  DEVICE: m10lte
+  DEVICE: Insignia_Delta3
   # (required) device tree link with branch if exists
-  DT_LINK: https://github.com/SA-17/m10
+  DT_LINK: https://github.com/acastillorobles77/android_device_timovi_Insignia_Delta3-twrp
   # (required) who made your phone ? 
-  MANUFACTURER: samsung
+  MANUFACTURER: timovi
   # (required) recovery partiton = recovery, else (no recovery partition): boot 
   TARGET: recovery
   # dont change that
   IMAGE: image
   # (required) depend of device tree if you see twrp_"codename".mk use twrp
   # else (omni_"codename".mk): omni
-  OT: twrp
+  OT: omni
   # dont change that
   SYM: _
   # (required) output format for some reason samsung phones need a custom mkbootimg
